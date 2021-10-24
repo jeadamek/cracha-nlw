@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 main {
-  background: url(images/background.svg) no-repeat center/cover;
+  background: url(images/background-m.svg) no-repeat center/cover;
   width: 100vw;
   min-height: 812px;
   height: 100vh;
@@ -26,7 +26,7 @@ main {
 
 .container {
   max-width: 250px;
-  margin:auto;
+  margin: auto;
   text-align: center;
 
   color: var(--gray);
@@ -49,7 +49,7 @@ main {
   height: 11.5rem;
   object-fit: cover;
 
-  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); 
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
 h1 {
@@ -74,7 +74,7 @@ p {
   margin-top: 2rem;
 }
 
-ul{
+ul {
   margin-top: 4rem;
 
   list-style: none;
@@ -86,3 +86,34 @@ ul{
   justify-content: center;
 }
 
+@media (min-width: 500px) {
+  main {
+    background: url(images/background-d.svg) no-repeat center/cover;
+    width: 100%;
+    min-height: 820px;
+    height: 100vh;
+  }
+
+  #faixa {
+    background: url(images/faixa.svg) no-repeat;
+    height: 158px;
+    width: 64px;
+    margin: 0 auto -17px;
+    position: relative;
+  }
+  .container{
+    background: url(images/cracha-bg.svg) no-repeat;
+    max-width: 358px;
+    margin: 0 auto;
+    height: 540px;
+  }
+
+  .avatar{
+    display: inline-block;
+    margin: 72px auto 0;
+  }
+
+  ul {
+    margin-top: 2.5rem;
+  }
+}
