@@ -3,7 +3,7 @@ const linksSocialMedia = {
   youtube: "channel/UCF57zglQAVYOa-z0TS9BbMQ",
   facebook: "jessica.galli.129",
   instagram: "je.adamek",
-  twitter: ""
+  linkedin: "in/jessica-adamek-330452b0/"
 }
 
 function changeSocialMediaLinks(){
